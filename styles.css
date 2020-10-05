@@ -22,17 +22,29 @@ p {
     align-content: center;
 }
 
-.flexbox2 {
+.megabox {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+}
+
+.iconflex {
     display: flex;
     flex-direction: column;
     margin-left: 10%;
     margin-right: 75%;
 }
 
-.flexbox3 {
+.textflex {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     margin-left: 15%;
     margin-right: 10%;
+}
+
+footer {
+    font-size: 12px;
+    text-align: center;
+    background-color: #a1a1a1;
 }
