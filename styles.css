@@ -1,0 +1,38 @@
+html {
+    background-color: #c793ad;
+}
+
+body {
+    font-family: Avenir, sans-serif;
+}
+
+h1 {
+    text-align: center;
+}
+
+p {
+    font-size: 16px;
+}
+
+.flexbox1 {
+    display: flex;
+    flex-direction: column;
+    margin-left: 25%;
+    margin-right: 25%;
+    align-content: center;
+}
+
+.flexbox2 {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10%;
+    margin-right: 75%;
+}
+
+.flexbox3 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-left: 15%;
+    margin-right: 10%;
+}
