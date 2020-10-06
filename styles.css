@@ -1,5 +1,5 @@
 html {
-    background-color: #c793ad;
+    background-color: #f4df75;
 }
 
 body {
@@ -31,20 +31,21 @@ p {
 .iconflex {
     display: flex;
     flex-direction: column;
-    margin-left: 10%;
-    margin-right: 75%;
+    margin-left: 100px;
 }
 
 .textflex {
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
-    margin-left: 15%;
-    margin-right: 10%;
+    margin-right: 100px;
+}
+
+.reminder {
+    background-color: #b4b4b4;
 }
 
 footer {
     font-size: 12px;
     text-align: center;
-    background-color: #a1a1a1;
+    background-color: #b4b4b4;
 }
