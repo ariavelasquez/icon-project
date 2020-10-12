@@ -22,30 +22,26 @@ p {
     align-content: center;
 }
 
-.megabox {
-    display: flex;
-    flex-direction: row;
-    text-align: center;
+.box1 {
+    border-color: #000000;
+    border-style: solid;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 25%;
+    margin-right: 25%;
 }
 
-.iconflex {
-    display: flex;
-    flex-direction: column;
-    margin-left: 100px;
+.box1 .icon {
+    max-width: 100px;
+    height: auto;
+    padding: 15px;
 }
 
-.textflex {
-    display: flex;
-    flex-direction: column;
-    margin-right: 100px;
+.box1 .explanatory-text {
+    text-align: justify;
+    padding: 10px;
 }
 
 .reminder {
-    background-color: #b4b4b4;
-}
-
-footer {
-    font-size: 12px;
-    text-align: center;
     background-color: #b4b4b4;
 }
