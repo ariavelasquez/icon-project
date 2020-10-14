@@ -28,6 +28,7 @@ p {
     margin-right: 25%;
     margin-top: 20px;
     margin-bottom: 20px;
+    border-bottom-style: solid;
 }
 
 .box1 .icon {
@@ -52,4 +53,17 @@ p {
 
 .reminder {
     background-color: #b4b4b4;
+}
+
+footer {
+    font-size: 13px;
+    margin-left: 25%;
+    margin-right: 25%;
+    text-align: center;
+}
+
+.footer-div {
+    border-top-color: #000000;
+    border-top-width: thin;
+    border-top-color: solid;
 }
